@@ -3,6 +3,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "serve": "turbo run serve --no-cache --parallel --continue",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },

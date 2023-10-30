@@ -25,7 +25,7 @@ __export(src_exports, {
 });
 module.exports = __toCommonJS(src_exports);
 
-// src/button.tsx
+// src/button/button.tsx
 var import_jsx_runtime = require("react/jsx-runtime");
 var Button = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { children: "Button" });

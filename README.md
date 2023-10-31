@@ -1,14 +1,10 @@
-# Turborepo starter
+# NextJs Monorepo Sample
 
-This is an official starter Turborepo.
+Start your React Project with a ready config!
 
-## Using this example
+this is a sample of the NextJs And Monorepo With Turborepo project for starting easily and fast.
+In this project, we added some configs and installed some necessary packages. they help you to ready very fast and don't waste time them.
 
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
 
 ## What's inside?
 
@@ -16,18 +12,22 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `docs`: a [StoryBook](https://storybook.js.org/) Config
+- `pwa`: a [Next.js](https://nextjs.org/) app NextJS 13.5
+- `ui`: a stub React component library With TailwindCss shared by `pwa` and `docs` applications
+- `icon`: all icons shared by `pwa` and `docs` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Utilities
+### Dependencies
 
 This Turborepo has some additional tools already setup for you:
 
+-  @reduxjs/toolkit & react-redux (for state management in your project)
+-  tailwindcss (for main style system)
+-  React Query (For manage apis)
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
